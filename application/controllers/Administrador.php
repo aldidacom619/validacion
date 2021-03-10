@@ -18,7 +18,7 @@ class Administrador extends CI_Controller
         $this->usuario['usuario'] = $this->session->userdata('nombre_completo');
         $this->_is_logued_in();
     }
-    //pruebas ****** ****
+    //pruebas ****** **** ********* *********
     function _is_logued_in(){ 
         $is_logued_in = $this->session->userdata('is_logued_in');        
         $tipo_user = $this->session->userdata('administrador');
