@@ -18,7 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 
-$config['base_url'] = 'http://172.18.50.16/validacion2019/';
+$config['base_url'] = 'http://172.18.50.16/validacion/';
 //$config['base_url'] = 'http://localhost/validacion2019';
 //$config['base_url'] = 'http://127.0.0.1:8080/VALIDACIONDOCUMENTALV1/';
 
