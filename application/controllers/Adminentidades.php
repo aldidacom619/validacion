@@ -16,7 +16,7 @@ class Adminentidades extends CI_Controller {
         $this->load->model('entidades_model');
         $this->load->model('adminusuario_model');
         $this->load->model('model');
-        //pruebas
+        //pruebas sddsdd
         $this->load->helper('validacion_helper');
         $this->load->helper(array('form', 'url'));
         $this->usuario['usuario'] = $this->session->userdata('nombre_completo');
