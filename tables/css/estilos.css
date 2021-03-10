@@ -1,0 +1,324 @@
+@font-face {
+  font-family: '"Helvetica Neue",Helvetica,Arial,sans-serif';
+  src: url('../fonts/Roboto-regular-webfont.woff2') format('woff2'), url('../fonts/Roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  background-color: #EEEEEE !important;
+}
+
+body {
+  background-color: : #EEEEEE;
+  font-family: '"Helvetica Neue",Helvetica,Arial,sans-serif';
+  font-size: 16px;
+  margin: 0;
+}
+.navegacion {
+	float: right;
+}
+.admin {
+  display: inline-block;
+  background-color: #fe423f; 
+  padding: 7.5px;
+  margin-top: -10px; 
+  border: 1.35px solid transparent;
+  border-radius: 5px;
+  cursor: pointer ;
+ }
+.admin:hover {
+  display: inline-block;
+  background-color: #fa625f; 
+  padding: 7.5px;
+  margin-top: -10px; 
+  border: 1.35px solid transparent;
+  border-radius: 5px;
+  }
+/* botones de navegacion */
+.boton-nav {
+	display: inline-block;
+	background-color:#2e4053 ; 
+	padding: 7.5px;
+	margin-top: -10px; 
+	border: 1.35px solid transparent;
+	border-radius: 5px;
+	cursor: pointer ;
+}
+.boton-nav:hover {
+	display: inline-block;
+	background-color:  #ccd1d1 ; 
+	padding: 7.5px;
+	margin-top: -10px; 
+	border: 1.35px solid transparent;
+	border-radius: 5px;
+	cursor: pointer ;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.avatar {
+  padding: 8px;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #519AA7 !important;
+}
+
+.btn-link {
+  border-color: #519AA7 !important;
+  background-color: #519AA7 !important;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn-link:hover {
+  border-color: #519AA7 !important;
+  background-color: #519AA7 !important;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-link a {
+  text-decoration: none;
+}
+
+/*.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: white;
+  cursor: default;
+  font-weight: bold;
+  background-color: #519AA7 !important;
+  border: 1px solid #519AA7 !important;
+  border-bottom-color: #519AA7 !important;
+  border-bottom-color: transparent;
+  padding-bottom: 2px;
+  border-radius: 5px;
+}*/
+
+.btn-success, .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success:visited {
+  border-color:  #2e4053  !important;
+  background-color:  #2e4053  !important;
+}
+
+.btn-success:hover {
+  background-color: #519AA7 !important;
+}
+
+.user-name {
+  font-family: 'Century Gothic' !important;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  margin-left: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.avatar, .name, .cerrar {
+  display: inline-block;
+}
+
+.close_session a {
+  color: white !important;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+/* for the clowns */
+
+.btn-primary {
+  background:  #d4ac0d !important;
+  border: 1px solid transparent;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background:  #2e4053   !important;
+  border: 1px solid transparent;
+}
+
+
+/*FLOAT ANCHOR*/
+
+.close_session {
+  z-index: 10;
+  right: 0;
+  top: 20px;
+  position: absolute;
+  margin-right: 10px;
+}
+
+.badge {
+  background-color: white;
+  color: #519AA7;
+  padding: 12px;
+}
+
+.ancla {
+  border: 1px solid #7a7b7f;
+  background-color: #DFF0D8;
+  color: black;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #ddd;
+  background-color: #EEEEEE;
+}
+
+.col-md-12, .panel-body, .cabezera {
+  background-color: #EEEEEE;
+}
+
+a {
+  color: black;
+}
+
+
+/*TABLAS*/
+
+
+/*
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: #d9edf7;
+}
+*/
+
+
+/*
+.table-striped>tbody>tr:nth-child(even)>td, .table-striped>tbody>tr:nth-child(even)>th {
+  background-color: white;
+}
+*/
+
+
+/*AJUSTA SEGUN EL CONTENIDO*/
+
+.table th, .table td {
+  font-weight: normal;
+  /*
+  white-space: nowrap;
+  width: 1%;
+  */
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+  border: 1px solid #FFF;
+}
+
+.thead {
+  /*
+  background-color: #F2DEDE;
+  color: #CD0200 !important;
+  */
+}
+
+.dataTables_length {
+  padding-top: 5px;
+  background-color: #E2E2E2;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+
+/*
+Cambios sugeridos
+*/
+
+.label-info {
+  background:  #2e4053 ;
+  filter: none;
+  border: 1px solid transparent;
+  width: 100%;
+  /*max-width: 49%;*/
+}
+
+.navbar-inverse {
+  background: #2e4053 ;
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6d94bf', endColorstr='#ff3e648d', GradientType=0);
+  -webkit-filter: none;
+  filter: none;
+  border: 1px solid transparent;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+/*center*/
+
+.contenido {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*tabs*/
+.nav-tabs > li.active > a
+{
+    color: #fff;
+    cursor: default;
+    background-color:  #d4ac0d ;
+    border: 1px solid  #d4ac0d ;
+    border-bottom-color: rgb(221, 221, 221);
+    border-bottom-color: transparent;
+    border-radius: 20px 20px 0 0;
+}
+.nav-tabs > li.active > a:hover
+{
+    color: #fff;
+    cursor: default;
+    background-color:  #f7dc6f ;
+    border: 1px solid  #f7dc6f ;
+    border-bottom-color: rgb(221, 221, 221);
+    border-bottom-color: transparent;
+    border-radius: 20px 20px 0 0;
+}
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/*botones*/
+.btn-default {
+    background-color: #2e4053;
+    color: #ffffff;
+}
+.btn-default:hover {
+    background-color: #ccd1d1 ;
+    color: #ffffff;
+  } 
+
+.tituloNombre{
+  font-size: 25px;
+   text-shadow: 3px 4px 5px #aaa;
+               
+}
+/* botones internos */
+.fa {
+    background:  #2e4053  ;
+    color: #fff;
+    padding: 8px;
+}
+.col-md-12 {
+   padding-right: 0px;
+   padding-left: 0px;
+}
