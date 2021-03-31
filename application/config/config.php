@@ -35,7 +35,7 @@ $config['base_url'] = 'http://172.18.50.16/validacion/';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------

@@ -24,7 +24,7 @@ class Administrador extends CI_Controller
         $tipo_user = $this->session->userdata('administrador');
         if($is_logued_in == 1){
             if($tipo_user != 't'){
-                redirect('inicio');
+                redirect('inicio');                
             }
         }  
         else{

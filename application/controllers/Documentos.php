@@ -21,6 +21,7 @@ class Documentos extends CI_Controller
     } 
     
   }
+  //pruebas
  
   function getTipoDocumentos()
   {

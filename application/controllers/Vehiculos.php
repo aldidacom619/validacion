@@ -371,10 +371,7 @@ class Vehiculos extends CI_Controller
         $procedenciaVehiculo = $this->input->get('txtProcedenciaVehiculoObservado');
         $modeloVehiculo = $this->input->get('txtModeloVehiculoObservado');
         $colorVehiculo = $this->input->get('txtColorVehiculoObservado');
-        
-        
         $listaObservaciones = $this->input->get('txtListaObservacionesVehiculo');
-
         $tipodoc = 4;
         
         //INICIO VALIDACION DOC INTERMEDIA

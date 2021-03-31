@@ -59,7 +59,7 @@ from nueva_validacion.vista_inmuebles vi
 left join (
 select distinct idb, idtipovalidacion from nueva_validacion.validacionxgestioninmueble where idtipovalidacion=2
 ) vg on vg.idb=vi.id
-where identidad='".$id."'  and habilitado = 1 order by vi.idbien asc");
+where identidad='".$id."'  and habilitado = 2 order by vi.idbien asc");
       
        return $query->result();	
 	} 

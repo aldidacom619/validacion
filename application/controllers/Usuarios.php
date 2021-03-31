@@ -23,6 +23,7 @@ class Usuarios extends CI_Controller
 			$username = $this->input->post('username');
 			$password = md5($this->input->post('pass'));
 			$login = $this->usuarios_model->loguear($username, $password);
+			echo var_dump($login);
 			if($login)
 			{
 				//echo var_dump($login);
@@ -45,7 +46,6 @@ class Usuarios extends CI_Controller
 						{
 							redirect("inicio");			
 						}
-
 			}		
 			else 
 			{

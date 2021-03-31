@@ -40,13 +40,16 @@ class Usuarios_model extends CI_Model
                                              f.nombres,                                              
                                              f.paterno,
                                              f.materno, 
-                                             u.usu_usuario 
+                                             u.usu_usuario,
+                                             f.estado
                                         from seguridad.usuarios u, 
                                              personal.funcionarios f  
                                        where u.usu_funcionario = f.idfunc 
+                                         and f.estado = 1
                                          and usu_usuario ='".$username."' 
                                          and usu_contrasena = '".$password."'");
-      $funcionario = $query->result();
+        $funcionario = $query->result();
+       
       if($funcionario)
       {        
          $query = $this->db->query("select u.administrador

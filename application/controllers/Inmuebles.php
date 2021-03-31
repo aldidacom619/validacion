@@ -109,7 +109,7 @@ class Inmuebles extends CI_Controller
     $dato['filas'] = $this->inmuebles_model->select_listatotal($identidad);
 
     $this->load->view("inicio/cabecera",$dato); 
-    $this->load->view("inmuebles/validar",$dato);
+    $this->load->view("inmuebles/validartotal",$dato);
     $this->load->view("inicio/verdocumentos",$dato);
     $this->load->view("inicio/verpersonas",$dato);
     $this->load->view("inicio/sindocumento",$dato);
